@@ -31,9 +31,9 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap 
 "comment"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap <. <!----><esc>2hi
 "tables
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap |. |head1|head2|<Enter>
-            \|---|---|<Enter>
-            \|cell1|cell2|<esc>2k02li
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap t. | head1 | head2 |<Enter>
+            \| --- | --- |<Enter>
+            \| cell1 | cell2 |<esc>2k02li
 "line"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap \n <br>
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap !i ![ImageDescription](link_to_image)
