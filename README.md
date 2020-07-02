@@ -56,7 +56,7 @@ The most of commands ends with dot in insert mode on VIM. Like described bellow;
 | !l | [LinkDescription](link_address) to add link | 
 | ^. | Footnote | 
 | :. | :::::: | 
-| \& | \&amp; (especial char in html) | 
+| \& | \&amp; (especial char in HTML) | 
 | \< | \&lt; | 
 | \> | \&gt; | 
 | \+ | \&nbsp; | 
