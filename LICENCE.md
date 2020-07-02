@@ -1,8 +1,8 @@
 
 
-mylivim theme copyright Bruno Franco.
+vim-markdown theme copyright Bruno Franco.
 
-mylivim.vim source code is licensed as follows:
+vim-markdown.vim source code is licensed as follows:
 
 The MIT License (MIT)
 
