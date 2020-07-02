@@ -30,10 +30,10 @@ The most of commands ends with dot. Described bellow;
 | !l | [LinkDescription](link_address) | 
 | [^ | [^] | 
 | :. | :::::: | 
-| \& | &amp;  | 
-| \< | &lt; | 
-| \> | &gt; | 
-| \+ | &nbsp; | 
+| \& | \&amp;  | 
+| \< | \&lt; | 
+| \> | \&gt; | 
+| \+ | \&nbsp; | 
      
      
 
