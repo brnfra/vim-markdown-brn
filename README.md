@@ -42,9 +42,9 @@ The most of commands ends with dot in insert mode on VIM. Like described bellow;
 | --- | --- | 
 | ` | \``` ``` | 
 | *. | ** | 
-| **. | **** | 
+| *: | **** | 
 | _. | __ | 
-| __. | ____ | 
+| _: | ____ | 
 | ~. | ~~~~ | 
 | +. | ++++ | 
 | =. | ==== | 
@@ -54,13 +54,11 @@ The most of commands ends with dot in insert mode on VIM. Like described bellow;
 | \n | \<br> | 
 | !i | ![ImageDescription](link_to_image) to add image and link |
 | !l | [LinkDescription](link_address) to add link | 
-| [^ | [^] | 
+| ^. | Footnote | 
 | :. | :::::: | 
 | \& | \&amp; (especial char in html) | 
 | \< | \&lt; | 
 | \> | \&gt; | 
 | \+ | \&nbsp; | 
      
-     
-
 

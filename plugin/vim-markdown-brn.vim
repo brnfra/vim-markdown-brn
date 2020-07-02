@@ -39,7 +39,7 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap 
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap !i ![ImageDescription](link_to_image)
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap !l [LinkDescription](link_address)
 "footnote"
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap ^. <!--Footnote 1-->link1[^<!--link1-->]<cr>[^<!--link1-->]:<!--Description of Footnote--><esc>i
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap ^. <!--Footnote 1-->link1[^<!--link1-->]<cr>[^<!--link1-->]:<!--Footnote_description--><esc>i
 "custom container"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap :. ::::::<esc>2hi
 
