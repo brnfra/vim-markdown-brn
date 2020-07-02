@@ -23,7 +23,7 @@ The most of commands ends with dot. Described bellow;
 | +. | ++++ | 
 | =. | ==== | 
 | -. | --- | 
-| <. | <!----> | 
+| <. | \<!----> | 
 | \. | [table2x2] | 
 | \n | \<br> | 
 | !i | ![ImageDescription](link_to_image) |
