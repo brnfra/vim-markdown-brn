@@ -1,5 +1,5 @@
 "# Autor: Bruno Franco
-"# Ultima_modificao: Qui 24 Fev 2020 13:02:46 BRT
+"# Ultima_modificao: 
 "# Download: git@github.com:brnfra
 "# Licence: Este arquivo é de domínio público
 "# Garantia: O autor não se responsabiliza por eventuais danos
@@ -23,7 +23,7 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap 
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap *. **<esc>i
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap **. ****<esc>hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap _. __<esc>i
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap _. ____<esc>hi
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap __. ____<esc>hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap ~. ~~~~<esc>hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap +. ++++<esc>hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap =. ====<esc>hi
@@ -31,9 +31,9 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap 
 "comment"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap <. <!----><esc>2hi
 "tables
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap |. | head1 | head2 |<Enter>
-            \| --- | --- |<Enter>
-            \| cell1 | cell2 |<esc>2k02li
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap |. |head1|head2|<Enter>
+            \|---|---|<Enter>
+            \|cell1|cell2|<esc>2k02li
 "line"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap \n <br>
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd inoremap !i ![ImageDescription](link_to_image)
