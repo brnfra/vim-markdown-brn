@@ -14,7 +14,7 @@ The most of commands ends with dot. Described bellow;
  
 | Command | Write it | 
 | --- | --- | 
-| ` | ``` ``` | 
+| ` | \``` ``` | 
 | *. | ** | 
 | **. | **** | 
 | _. | __ | 
@@ -25,7 +25,7 @@ The most of commands ends with dot. Described bellow;
 | -. | --- | 
 | <. | <!----> | 
 | \. | [table2x2] | 
-| \n | <br> | 
+| \n | \<br> | 
 | !i | ![ImageDescription](link_to_image) |
 | !l | [LinkDescription](link_address) | 
 | [^ | [^] | 
