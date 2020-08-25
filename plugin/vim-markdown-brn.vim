@@ -60,8 +60,8 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inore
 "html tags"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <u <u></u><esc>3hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <s <strong></strong><esc>8hi
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <p <p id="" class=""></p><esc>3hi
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <sp <span id="" class=""></span><esc>v6hx2o<esc>p0<esc>==<esc>ki
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <p <p id="" class="" style=""></p><esc>3hi
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <sp <span id="" class="" style=""></span><esc>v6hx2o<esc>p0<esc>==<esc>ki
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <i <i></i><esc>3hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <b <b></b><esc>3hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <sub <sub></sub><esc>5hi
@@ -76,7 +76,7 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inore
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <h4 <h4></h4><esc>4hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <h5 <h5></h5><esc>4hi
 "div"
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <di <div id="" class=""></div><esc>v5hx2o<esc>p0<esc>==<esc>ki
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <di <div id="" class="" style=""></div><esc>v5hx2o<esc>p0<esc>==<esc>ki
 "Ordened List
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <ol <ol type=""></ol><esc>v4hx2o<esc>p0<esc>==<esc>ki
 
