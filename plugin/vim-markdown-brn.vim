@@ -1,20 +1,23 @@
-"# Autor: Bruno Franco
-"# Ultima_modificao: 
-"# Download: git@github.com:brnfra
-"# Licence: Este arquivo é de domínio público
-"# Garantia: O autor não se responsabiliza por eventuais danos
-"           causados pelo uso deste arquivo.
+" ====================================================================
+" Arquivo:vim-markdown-brn.vim
+" Autor: Bruno Franco
+" Ultima_modificacao: 25-08-2020
+" Download: git@github.com:brnfra
+" Licence:Este arquivo é de domínio público
+" Garantia: O autor não se responsabiliza por eventuais danos
+"             causados pelo uso deste arquivo.
 "
-"my Maps;
-"<BAR>       - |
-"<leader>    - \
-"<C-w>       - Ctrl + w
-"<CR>        - Enter(confirma)
-"<S-w>       - Shift + w
-"<F1>        - F1
+""           _           
+""    __   _(_)_ __ ___  
+""    \ \ / / | '_ ` _ \ 
+""     \ V /| | | | | | |
+""      \_/ |_|_| |_| |_|
+""     
+"
 "-------------------------------------------------------
 "                       -- Markdown  --
 "-------------------------------------------------------
+"
 autocmd Filetype markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt setlocal ts=8 sw=4 
 ""markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt 
 
@@ -42,8 +45,7 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inore
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap ^. <!--Footnote 1-->link1[^<!--link1-->]<cr>[^<!--link1-->]:<!--Footnote_description--><esc>i
 "custom container"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap :. ::::::<esc>2hi
-
-""-------------------Specials
+"Specials
 "&"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap \& &amp; 
 "<>"
@@ -51,13 +53,7 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inore
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap \> &gt;
 "no-break space"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap \+ &nbsp;
-
-
-
-
-
-
-"html tags"
+"html utils HTML tags"
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <u <u></u><esc>3hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <s <strong></strong><esc>8hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <p <p id="" class="" style=""></p><esc>3hi
@@ -69,7 +65,7 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inore
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <u <u></u><esc>3hi
 "Spam definition
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <abr <abbr></abbr><esc>6hi   
-
+"Subjects highlights "
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <h1 <h1></h1><esc>4hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <h2 <h2></h2><esc>4hi
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <h3 <h3></h3><esc>4hi
@@ -79,15 +75,14 @@ autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inore
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <di <div id="" class="" style=""></div><esc>v5hx2o<esc>p0<esc>==<esc>ki
 "Ordened List
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <ol <ol type=""></ol><esc>v4hx2o<esc>p0<esc>==<esc>ki
-
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <li <li></li><esc>4hi      
-
 "UnOrdened List
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <ul <ul type=""></ul><esc>v4hx2o<esc>p0<esc>==<esc>ki
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <li <li></li><esc>4hi      
-
 "Table
 autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <ta <table border="" width=""></table><esc>v7hx2o<esc>p0<esc>==<esc>k>>i
             \<tr></tr><esc>v4hx2o<esc>p0<esc>==<esc>ki
             \<th></th><esc>4hi[Column1]<esc>o<esc>i<th></th><esc>4hi[Column2]<esc>o<esc>i<th></th><esc>4hi[Column3]<esc>
-autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <li <li></li><esc>4hi      
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <li <li></li><esc>4hi
+autocmd FileType markdown,mdown,mkdn,md,mkd,mdwn,mdtxt,mdtext,text,Rmd,txt inoremap <am <amd></amd><esc>5hi      
+
